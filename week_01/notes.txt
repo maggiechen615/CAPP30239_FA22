@@ -1,0 +1,56 @@
+1. HTML tags
+1) <head> 
+    * <meta> tags:
+    The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. 
+    #<meta> tags always go inside the <head> element#, and are typically used to specify character set, page description, keywords, author of the document, 
+    and viewport settings.
+    metadescription:　what shows up in descripition on google 
+    <script>: for JS 
+    <title> which shows after the name on page tab 
+2) chrome dev tools: allow changes in real time; a playground for debugging and tweaking styles
+    can hover over and see the font used
+3) console on dev tools: where can test out code
+
+4) <body>
+semantic markup: mark the code in an organized way that makes sense, p-tag for paragraphs
+<div>: division of code, a block
+    div id vs. div class
+        class: can be reused 
+        id: can only be used once (and for JS, if give an id with multiple, only the first one will show up)
+<span>: more like a highlighter, in-line
+<br />: create a break inside a paragraph for the next line /: a self closing tag
+
+<p> .... </p>
+<img source = '...'/> : dont need a closing tag
+<a>: allows to link from page to page, the anchor tag 
+    <a href = '....'> </a>
+
+------
+2. CSS 
+https://www.w3schools.com/cssref/
+
+if i put index.html, dont need to put the index.html only
+ctrl+shift+p to wrap up
+{}: object
+<style>: sign for CSS to start
+
+CSS: hierarchical, so if we have the .container first/later, will follow it
+ctrl + shift for a comment
+
+----
+3. JS (quite like python)
+which shows by <script>
+const cant be changed
+var vs. let 
+    var is a traditional one
+    dig into it more
+
+examples of syntax:
+if (num === num1) {alert('these are equal')}
+var num = 100;
+let foo = 'bar';
+const zar = 'bar';
+var newArr = ['foo', 'bar', 'zar'];
+
+the syntax for printing: 
+console.log("hello world")
