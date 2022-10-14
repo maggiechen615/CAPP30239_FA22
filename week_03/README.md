@@ -1,4 +1,4 @@
-## Overview  
+## Project Overview  
 ### ESG Performance of Food Giants - the bigger, the better?  
 This project focuses on ESG (Environmental, Social, Governance) performance of 3 food giants: Tyson, JBS, Cargill. Among all the ESG matrices, food safety and nutrition is very important for food industry and would be used for this project. I would compare the 3 giants with industry benchmark to see how well big food companies are performing with this specific ESG matrix.
 
