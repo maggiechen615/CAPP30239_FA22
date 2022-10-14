@@ -7,6 +7,7 @@ There would be a dedicated folder for each week's work
   - data selfie
   - introduction to HTML/CSS  
 ### week_02: dear data and JS
-  - js in-class example  
+  - JS in-class example  
 ### week_03: D3
-  - D3 in-class example for bar chart
+  - D3 in-class example for bar chart  
+  - data and proposal for final project
