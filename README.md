@@ -5,4 +5,8 @@ This class involves both theory and hands-on practices with data visualization t
 There would be a dedicated folder for each week's work  
 ### week_01: introduction
   - data selfie and self introduction
-  - brief overview of HTML/CSS/JS
+  - brief overview of HTML/CSS
+### week_02: dear data and JS
+  - js in-class example
+### week_03: D3
+  - D3 in-class example (bar chart)
