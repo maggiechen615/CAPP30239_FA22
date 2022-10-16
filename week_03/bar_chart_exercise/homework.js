@@ -27,11 +27,11 @@ d3.csv("library_visits_jan22.csv").then(data => {
         .attr("transform", `translate(0, ${height - margin.bottom+10})`) //apply transform as attribute of g
         .call(d3.axisBottom(x));
     
-     const yAxis = g =>g /*create a group*/
+     const yAxis = g =>g
         .attr("transform", `translate(${margin.left-10}, 0)`)
         .call(d3.axisLeft(y));
     
-    //append a 'g' element to svg
+    //append a 'g' element to svg, changed font size
     svg.append("g").style("font", "27px times").call(xAxis)
     svg.append("g").style("font", "27px times").call(yAxis) 
 
@@ -44,7 +44,7 @@ d3.csv("library_visits_jan22.csv").then(data => {
         .attr("class", "bar");
     
     bar.append("rect")
-        //attempt to change bar color depending on value
+        //change bar color depending on value
         .attr("fill", function(d) {
             if (d.num < 1500) {
                 return 'lightgray';
