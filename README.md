@@ -10,4 +10,5 @@ There would be a dedicated folder for each week's work
   - JS in-class example  
 ### week_03: D3
   - D3 in-class example for bar chart  
-  - data and proposal for final project
+  - data and proposal for final project  
+  - `bar_chart_exercise`: homework for D3 bar chart practices
