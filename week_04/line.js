@@ -10,7 +10,7 @@ const svg = d3.select("#chart")
     .attr("viewBox", [0, 0, width, height]);
 
 d3.csv('long-term-interest-monthly.csv').then(data => {
-    let timeParse = d3.timeParse("%Y-%m")
+    let timeParse = d3.timeParse("%Y-%m") //define a function
 
     console.log(data) //to make sure data is on page
     //since values are in string
@@ -56,13 +56,13 @@ d3.csv('long-term-interest-monthly.csv').then(data => {
     
     let line = d3.line()
         .x(d => x(d.Date))
-        .y(d => y(d.Value)) //give position to each point on the page
+        .y(d => y(d.Value)) //give position to each point on the line
         .curve(d3.curveBasis)
     
-    //do sth on the variable we created on line 7
+    //append things to svg that was created on line 8
     svg.append("path")
         .datum(data)
-        .attr("d", line)
+        .attr("d", line) //defined from 57-60
         .attr("fill", "none")
         .attr("stroke", "steelblue")
   });

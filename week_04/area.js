@@ -59,5 +59,5 @@ d3.csv('long-term-interest-monthly.csv').then(data => {
       .datum(data)
       .attr("d", area)
       .attr("fill", "steelblue")
-      .attr("stroke", "orange")
+      .attr("stroke", "gray")
   });

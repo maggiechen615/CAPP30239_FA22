@@ -38,8 +38,9 @@ d3.csv("long-term-interest-G7.csv").then(data => {
     .x(d => x(d.Date))
     .y(d => y(d.Value));
  
+  //create line for each individual country inside a for loop
   for (let country of countries) {
-    let countryData = data.filter(d => d.Location === country); //create line for each individual country
+    let countryData = data.filter(d => d.Location === country); 
 
     let g = svg.append("g")
       .attr("class", "country")
