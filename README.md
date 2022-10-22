@@ -8,7 +8,9 @@ There would be a dedicated folder for each week's work
   - introduction to HTML/CSS  
 ### week_02: dear data and JS
   - JS in-class example  
-### week_03: D3
+### week_03: D3 on bar chart
   - D3 in-class example for bar chart  
   - data and proposal for final project  
-  - `bar_chart_exercise`: homework for D3 bar chart practices
+  - `bar_chart_exercise`: homework for D3 bar chart practices  
+### week_04: D3 on line chart
+  - D3 in-class example for line chart
