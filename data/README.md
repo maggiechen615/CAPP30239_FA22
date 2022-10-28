@@ -8,4 +8,4 @@ This folder contains __cleaned__ data for the final project. Four tables are inc
 4. Top30_Ind_Distribution: WSJ's ranking of top 30 sustainably managed companies  
 
 
-Side note: A prototype of the final deliverable (by using Figma) can be viewed here[https://www.figma.com/file/9kceWL44Csf7rzqcMUfGVu/Data-Viz-Final-Project?node-id=0%3A1]
+Side note: A prototype of the final deliverable (by using Figma) can be viewed here: https://www.figma.com/file/9kceWL44Csf7rzqcMUfGVu/Data-Viz-Final-Project?node-id=0%3A1
