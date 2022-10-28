@@ -14,6 +14,7 @@ There would be a dedicated folder for each week's work
   - `bar_chart_exercise`: homework for D3 bar chart practices  
 ### week_04: D3 on line chart
   - D3 in-class example for line chart  
+  - homework practice for line chart  
 ### week_05: D3 on histogram and scatterplot  
   - D3 in-class example for histogram and scatterplot  
 ### data: data folder for final project  
