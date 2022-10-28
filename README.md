@@ -13,4 +13,10 @@ There would be a dedicated folder for each week's work
   - data and proposal for final project  
   - `bar_chart_exercise`: homework for D3 bar chart practices  
 ### week_04: D3 on line chart
-  - D3 in-class example for line chart
+  - D3 in-class example for line chart  
+### week_05: D3 on histogram and scatterplot  
+  - D3 in-class example for histogram and scatterplot  
+### data: data folder for final project  
+  - four seperate csv files for cleaned data  
+  - ipynb file for code  
+  - Figma link for prototype
