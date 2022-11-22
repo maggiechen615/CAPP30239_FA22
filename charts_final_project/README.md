@@ -11,4 +11,4 @@ Five plot types are included:
 
 
 #### Additional Files  
-Additional files include:Original and cleaned csv files, as well as html files to structure the web page and css file to format the layout of the page.
+Additional files include: Cleaned csv files, as well as html files to structure the web page and css file to format the layout of the page. Github page can be viewed at: https://maggiechen615.github.io/CAPP30239_FA22/charts_final_project/index.html
