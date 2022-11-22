@@ -16,8 +16,17 @@ There would be a dedicated folder for each week's work
   - D3 in-class example for line chart  
   - homework practice for line chart  
 ### week_05: D3 on histogram and scatterplot  
-  - D3 in-class example for histogram and scatterplot  
+  - D3 in-class example for histogram and scatterplot
+### week_06: D3 on ring, histogram, and stacked charts. 
+  - D3 in-class example for ring, multiring  
+  - D3 in-class example for stacked charts. 
+### week_07: D3 on maps  
+
+
 ### data: data folder for final project  
   - four seperate csv files for cleaned data  
   - ipynb file for code  
-  - Figma link for prototype
+  - Figma link for prototype  
+### charts_final_projects: build charts for final project  
+  - all cleaned data and jupyter notebook for data cleaning  
+  - five different chart types
