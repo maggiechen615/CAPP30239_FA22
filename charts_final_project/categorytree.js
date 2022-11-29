@@ -3,17 +3,15 @@ let data1 =
   "name": "Food Category",
   "children": [
     { "name": "Sausages, Hotdogs & Brats" },
-    { "name": "Frozen Patties and Burgers " },
+    { "name": "Frozen Patties & Burgers" },
     {
       "name": "Other Meats",
       "children": [
         { "name": "112.0 serving_size counts: 1768" },
-        { "name": "151.0 serving_size counts: 100" },
-        { "name": "170.0 serving_size counts: 48" }
+        { "name": "151.0 serving_size counts: 100" }
       ]
     },
-    { "name": "Poultry, Chicken & Turkey" },
-    { "name": "Other Frozen Meats" }
+    { "name": "Poultry, Chicken & Turkey" }
   ]
 };
 
