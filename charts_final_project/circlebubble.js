@@ -77,8 +77,6 @@ function BubbleChart(data, {
     const leaf = svg.selectAll("a")
       .data(root.leaves())
       .join("a")
-        .attr("xlink:href", link == null ? null : (d, i) => link(D[d.data], i, data))
-        .attr("target", link == null ? null : linkTarget)
         .attr("transform", d => `translate(${d.x},${d.y})`);
   
     leaf.append("circle")
