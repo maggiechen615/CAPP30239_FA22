@@ -153,14 +153,73 @@
                 <h3><center>JBS Revenue vs. Investment in ESG</center></h3>
 
             </div>
+        
+        <h2>
+            Process Section
+        </h2>
+        <h3>Data Collection and Data Cleaning</h3>
+        <p>
+            I was able to find the data I want based on my past internship experience with MSCI ESG group. 
+            However, massive data becomes a problem to deal with. While USDA does offer a lot of food-related data, 
+            the data is spread messily over different tables and each single table is big in size. In order to make 
+            sure the data can get loaded smoothly in front-end settings, I did some table joining, dataframe filtering, 
+            and concatenation processes with the available data. Finally, I was able to generate small tables for 
+            different charts and ran them successfully with JavaScript.
+        </p>
+        <h3>Plot Selection</h3>
+        <p>
+            I used 5 different types of plots throughout the project. The first plot is a circle packing bubble chart, 
+            which is represented by non-hierarchical packed circles. The size of each bubble is proportional to the value. 
+            That's to say, the bigger the bubble, the more sustainably managed companies this industry has. 
+            I found bubbles an intriguing way to introduce the topic to my audience and show why the focus on the food 
+            industry is important. I didn't choose a tree map here because there is no hierarchy among the different industries. 
+            <br>
+            <br>
+            The second and the third charts I chose help tell the story of the product categories of JBS and the detailed 
+            serving size. The goal is to show my audience why I want to focus on this detailed category: 112.0 serving size of 
+            'Other Meats' category for further analysis. On the left hand side is a ring chart, which shows 'Other Meats' 
+            category accounts for the dominant proportion of the total food categories offered by JBS. Ring chart comes in 
+            very handy to show the proportion. On the right hand side is a tree map, which shows the detailed serving size of different 
+            food categories. Here a tree map is used because there exists hierarchy within the data: food categories first, and 
+            serving size within different categories. 
+            <br>
+            <br>
+            The fourth and the fifth charts belong to the same category: boxplot. A box-and-whisker plot shows summary statistics 
+            of a quantitative distribution. With boxplot, I can show the result of data analysis - how JBS is performing in terms of 
+            total lipid fat compared to industry average level. A box plot also enables me to show outliers and extreme values besides 
+            the average amount, which also provides more insights into the data analysis. 
+            <br>
+            <br>
+            The final chart I used is a stacked area chart. The purpose here is to show the big contrast of growing revenue of JBS and 
+            declining investment in ESG, and a stacked area chart is able to display the strong contrast here. 
+        </p>
+        <h3>Limitations</h3>
+        <p>
+            One limitation of the project is that, due to the time constraints, I was only able to focus on one giant food 
+            company and zoom into the most important food category. It will be really interesting to see how other food giant 
+            companies are performing and if there exists a similar pattern with JBS. If I have a chance to work on this 
+            project in the future, I would expand the project scope and look into other companies to get more insights out of 
+            it. 
+        </p>
 
-        </div>
+        <h2>Data Source</h2>
+        <p>
+            (i) Food data, including product category, nutrient value, etc. is collected from 
+            <a href="https://fdc.nal.usda.gov/download-datasets.html">USDA</a> (U.S. DEPARTMENT OF AGRICULTURE) website.
+            <br>
+            <br>
+            (ii) Supplementary data include report issued by 
+            <a href="https://api.mziq.com/mzfilemanager/v2/d/043a77e1-0127-4502-bc5b-21427b991b22/ae88aaaa-6925-b917-b021-7755ffd07729?origin=1">JBS Annual Sustainability Report</a> and 
+            rating done by <a href="https://www.wsj.com/articles/explore-the-full-wsj-sustainable-management-ranking-11602506733?mod=ig_sustainablymanagedcompanies2020">WSJ</a>. 
+        </p>
+
+
+     </div>
 
         
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="stacked_area.js"></script>
-    <script src="circlebubble.js">
-    </script>
+    <script src="circlebubble.js"></script>
     <script src="ring.js"></script>
     <script src="categorytree.js"></script>
     <script src="boxplot_jbs.js"></script>
