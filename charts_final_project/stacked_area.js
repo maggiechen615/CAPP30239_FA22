@@ -118,5 +118,3 @@ grp.append("circle").attr("cx",80).attr("cy",30).attr("r", 3).style("fill", "#8c
 grp.append("circle").attr("cx",80).attr("cy",50).attr("r", 3).style("fill", "#c2a5cf")
 grp.append("text").attr("x", 90).attr("y", 30).text("Revenue ($,million)").style("font-size", "10px").attr("alignment-baseline","middle")
 grp.append("text").attr("x", 90).attr("y", 50).text("ESG Investment ($,million)").style("font-size", "10px").attr("alignment-baseline","middle")
-
-//Q: X axis

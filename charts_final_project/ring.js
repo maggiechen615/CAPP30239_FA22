@@ -47,8 +47,6 @@ d3.json('category.json').then((data) => {
       .attr("font-weight", "bold")
       .attr("text-anchor", "middle")
       .attr("alignment-baseline", "middle")
-      .text("Top 5 JBS Food Category")
+      .text("Counts of categories")
       .style("font-size", 15);
   });
-
-  //Q: how to keep the text 'up'?

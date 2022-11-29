@@ -8,8 +8,8 @@ d3.csv('total_fat_ind.csv').then(data => {
     let chart = BoxPlot(data, {
         x: d => d.serving_size,
         y: d => d.amount,
-        xLabel: "Industry Avg. Serving Size →",
-        yLabel: "↑ Industry Avg. Amount (G)",
+        xLabel: "Serving Size →",
+        yLabel: "↑ Amount (G)",
         width: 600,
         height: 500
       });

@@ -2,25 +2,30 @@
     max-width: 1260px;
     margin: 0 auto;
   }
+
 * {
     background-color: white;
     color: rgb(52, 51, 51);
   }
+
 .subcontainer {
     float: left;
   }
 .subcontainer2 {
     float: left;
   }
+
 .flex-container{
     display: flex;
 }
+
 .one {
     width: 500px;
 }
 .two {
     width: 800px;
 }
+
 #tree {
     height: 500px
   }
