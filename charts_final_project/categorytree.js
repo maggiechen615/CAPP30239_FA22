@@ -1,17 +1,17 @@
 let data1 = 
 {
-  "name": "Food Category",
+  "name": "Distribution of Categories",
   "children": [
-    { "name": "Sausages, Hotdogs & Brats" },
-    { "name": "Frozen Patties & Burgers" },
     {
-      "name": "Other Meats",
+      "name": "Other Meats: 2119",
       "children": [
-        { "name": "112.0 serving_size counts: 1768" },
-        { "name": "151.0 serving_size counts: 100" }
+        { "name": "counts of 112.0 serving size: 1768" },
+        { "name": "counts of other serving size: 351" }
       ]
     },
-    { "name": "Poultry, Chicken & Turkey" }
+    { "name": "Sausages, Hotdogs & Brats: 99"},
+    { "name": "Frozen Patties & Burgers: 60" },
+    { "name": "Poultry, Chicken & Turkey: 34" }
   ]
 };
 
