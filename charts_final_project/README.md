@@ -2,7 +2,7 @@
 For a long time, investors only cared about financial factors of target companies (i.e., revenue, CAGR). ESG (Environmental, Social, Governance) factors were developed in recent years as non-financial topics to evaluate risks and opportunities of a company. Is ESG important? Can we assume financially successful companies are performing well in ESG? This project zooms into food industry to find an answer.  
 
 
-### Folder Structure  
+### Folder Content  
 This folder contains all the project-related JS, HTML and CSS files, along with cleaned data and jupyternotebook file used for data cleaning. 
 
 
