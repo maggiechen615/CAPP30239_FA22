@@ -15,7 +15,8 @@ d3.json('category.json').then((data) => {
       .attr("height", height)
       .attr("viewBox", [-width /1.8, -height / 2, width, height])
       .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
-  
+
+    //join the data with arc, cuz producing ring chart here
     svg.append("g")
       .attr("stroke", "white")
       .attr("stroke-width", 2)
@@ -25,7 +26,8 @@ d3.json('category.json').then((data) => {
       .join("path")
       .attr("fill", (d, i) => ["#8c96c6","#c2a5cf","#f7f7f7","#a6dba0","#008837"][i])
       .attr("d", arc);
-  
+
+    //add annotations to the ring chart
     svg.append("g")
       .attr("font-size", 12)
       .attr("text-anchor", "middle")

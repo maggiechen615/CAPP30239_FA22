@@ -19,7 +19,7 @@
                 financial factors of a company, i.e. revenue, net income, and CAGR. However, over the past few years non-financial 
                 factors have caught increasing attention to better identify risk and opportunities of a target company. 
                 Why are ESG factors important? Can we simply assume that those big companies (big in size and big in revenue) are 
-                performing equally well in non-financial factors? 
+                performing well in non-financial factors? 
             </p>
 
             <div class = "flex-container">
@@ -59,19 +59,12 @@
                         is selected for this project to examine how big companies such as JBS are performing in food safety and quality.
                         <br>
                         <br>
-                        While USDA offers massive data of a food company's product categories, product details, nutrient values, etc, 
-                        the huge data also raise some questions: which aspect to start with and what to focus on? To address this, some cleaning 
-                        was done with Python to make sure that the project should focus on the most essential aspect. 
-                        Firstly, JBS offers a broad range of food categories. Out of all these categories, 'Other Meats' (incl. beef, etc.) accounts 
-                        for 91% of the total categories (or 2119 out of 2340 total counts, as revealed in the ring plot below). 
-                        Other categories capture the remaining 9%, including Sausages, Hotdogs & Brats, Frozen Patties and Burgers, etc. 
-                        Thus, 'Other Meats' is a key food category to further zoom into. 
-                        <br>
-                        <br>
-                        The next thing that comes up is food serving size. Within the 'Other Meats' category, 
-                        JBS offers a wide range of serving sizes, e.g. 112.0g, 151.0g, 170.0g, 227.0g, etc. As revealed in the tree plot below, 
-                        112.0 is the most important serving size, with a total count of 1768, which far exceeds the count of other serving sizes. 
-                        Up to this point, the key focus group for study becomes clear with strong data support: 
+                        It is essential to decide a focus group for further analysis. JBS offers a broad range of food categories. Out of all these categories, 'Other Meats' (incl. beef, etc.) accounts 
+                        for 91% of the total categories and captures most of the revenue stream.
+                        Within the 'Other Meats' category, 
+                        JBS offers a wide range of serving sizes, e.g. 112.0g, 151.0g, 170.0g, 227.0g, etc., out of which 
+                        112.0 is the most important serving size. 
+                        Thus, the key focus group for study becomes clear with strong data support: 
                         <strong>112.0 serving size of 'Other Meats' food category, offered by JBS Foods</strong>.
 
                         <a href="https://fdc.nal.usda.gov/download-datasets.html">USDA</a>
@@ -92,18 +85,14 @@
                     than industry average
                 </h2>
                 <p>
-                    This section offers a side by side comparison between JBS and industry average (here 'industry' refers to 
-                    all the branded companies with records on USDA website) in terms of 'total lipid (fat)' value of 'Other Meats' 
-                    food category. The two plots are intentionally arranged side by side. 
-                    The reason is that, especially for industry situations, different serving sizes are pretty close to each other 
-                    in value, which may lead to plots being a bit messy if JBS values are stacked with industry values. 
+                    A side by side comparison between JBS and industry average (here 'industry' refers to 
+                    all the branded companies with records on USDA website) shows that JBS has higher 'total lipid (fat)' value.
                     <br>
                     <br>
-                    The left-hand-side boxplot showcases the total lipid (fat) value of JBS foods, while the right-hand-side 
-                    showcases that of industry average. There are several key findings from the two plots: 
+                    There are several key findings from the analysis: 
                     (i) For a serving size around 112.0, JBS has higher total lipid (fat) than industry average. 
-                    (ii) Again for the serving size around 112.0, JBS has more extreme high values of total lipid fat than 
-                    industry average. (iii) Another interesting finding is: the mean value of total lipid fat does not decrease 
+                    (ii) JBS has higher maximum value of total lipid fat than 
+                    industry average for a serving size of 112.0. (iii) The mean value of total lipid fat does not decrease 
                     proportionally with the decrease of serving size, which might raise further concerns about food nutrient and 
                     safety.
 
@@ -151,7 +140,7 @@
                     <br>
                     <br>
                     This concludes the main part of the project - 
-                    by focusing on the food industry and JBS Foods specifically, this project reveals that industry giant does not have better 
+                    by focusing on the food industry and JBS Foods specifically, this project reveals that some industry giant does not have better 
                     performance in terms of food nutrient value than 
                     industry average, which should raise our awareness and trigger thoughts on how we can force industry giants 
                     to care more about non-financial factors that are directly related to consumers' health and well-being.
@@ -167,9 +156,13 @@
         </h2>
         <h3>Data Collection and Data Cleaning</h3>
         <p>
-            I was able to find the data I want based on my past internship experience with MSCI ESG group. 
-            However, massive data becomes a problem to deal with. While USDA does offer a lot of food-related data, 
-            the data is spread messily over different tables and each single table is big in size. In order to make 
+            My interest in ESG related topics is brought by a past internship experience with MSCI ESG group. I learned how 
+            important it is to focus on non-financial aspects like ESG to predict and foresee a risk of a target company.
+            During that internship, I also had a chance to explore different food datasets, out of which I found USDA (U.S. Department of Agriculture) 
+            offers the most comprehensive data. That's why the main source of data for this project is from USDA.
+            However, massiveness and complexity in data also become a problem to deal with. While USDA does offer a lot of food-related data, 
+            the data is spread messily over different tables and each single table is big in size. I had to go over all the features
+            in each dataset to figure out which tables offer things I need for my analysis. Besides, in order to make 
             sure the data can get loaded smoothly in front-end settings, I did some table joining, dataframe filtering, 
             and concatenation processes with the available data. Finally, I was able to generate small tables for 
             different charts and ran them successfully with JavaScript.
@@ -195,19 +188,26 @@
             The fourth and the fifth charts belong to the same category: boxplot. A box-and-whisker plot shows summary statistics 
             of a quantitative distribution. With boxplot, I can show the result of data analysis - how JBS is performing in terms of 
             total lipid fat compared to industry average level. A box plot also enables me to show outliers and extreme values besides 
-            the average amount, which also provides more insights into the data analysis. 
+            the average amount, which also provides more insights into the data analysis. The two plots are intentionally arranged side by side. 
+            The reason is that, especially for industry situations, different serving sizes are pretty close to each other 
+            in value, which may lead to plots being a bit messy if JBS values are stacked with industry values. 
             <br>
             <br>
             The final chart I used is a stacked area chart. The purpose here is to show the big contrast of growing revenue of JBS and 
             declining investment in ESG, and a stacked area chart is able to display the strong contrast here. 
+            <br>
+            <br>
+            For all the five charts, I made use of consistent color codes. I hope the color choice can bring more scientific rigor to my 
+            project. 
         </p>
-        <h3>Limitations</h3>
+        <h3>Limitations and Data Gaps</h3>
         <p>
             One limitation of the project is that, due to the time constraints, I was only able to focus on one giant food 
-            company and zoom into the most important food category. It will be really interesting to see how other food giant 
-            companies are performing and if there exists a similar pattern with JBS. If I have a chance to work on this 
-            project in the future, I would expand the project scope and look into other companies to get more insights out of 
-            it. 
+            company and zoom into the most important food category. Previously I was thinking about doing a comparison of three 
+            food giants: JBS, Tyson and Cargill. However, some nutrient values are missing for Tyson and this makes the comparison 
+            hard. If I had more time, it will be really interesting to go and explore other potential data sources to see how other food giant 
+            companies are performing and if there exists a similar pattern with JBS. This is what I would do if I have a chance to work on this 
+            project in the future.
         </p>
 
         <h2>Data Source</h2>
@@ -219,6 +219,10 @@
             (ii) Supplementary data include report issued by 
             <a href="https://api.mziq.com/mzfilemanager/v2/d/043a77e1-0127-4502-bc5b-21427b991b22/ae88aaaa-6925-b917-b021-7755ffd07729?origin=1">JBS Annual Sustainability Report</a> and 
             rating done by <a href="https://www.wsj.com/articles/explore-the-full-wsj-sustainable-management-ranking-11602506733?mod=ig_sustainablymanagedcompanies2020">WSJ</a>. 
+            <br>
+            <br>
+            (iii) Jupyter notebook for data cleaning and all cleaned data are available at 
+            <a href="https://github.com/maggiechen615/CAPP30239_FA22/tree/main/charts_final_project">Maggie's GitHub Repo</a>
         </p>
 
         <h2>Code Reference</h2>

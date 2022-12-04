@@ -31,7 +31,6 @@ for (let d of data) {
   d.year = timeParse(d.year);
 }
 
-//console.log(data)
 
 const color = ["#c2a5cf","#8c96c6"];
 
